@@ -82,20 +82,21 @@ cd 11th-lesson-with-php-backend-and-mysql
 You can organize your files similar to this (update this section according to your actual structure):
 
 11th-lesson-with-php-backend-and-mysql/
-├── config.php # Database configuration
-├── index.php # Main entry point (list / home page)
-├── create.php # Example: form to create a record
-├── edit.php # Example: form to edit a record
-├── delete.php # Example: handle delete action
+├── config.php          # Database configuration
+├── index.php           # Main entry point (list / home page)
+├── create.php          # Form to create a record
+├── edit.php            # Form to edit a record
+├── delete.php          # Handle delete action
 ├── includes/
-│ ├── db.php # Database connection helper
-│ └── functions.php # Reusable helper functions
+│   ├── db.php          # Database connection helper
+│   └── functions.php   # Reusable helper functions
 ├── public/
-│ ├── css/
-│ │ └── style.css # Basic styling
-│ └── js/
-│ └── main.js # Optional JS
-└── database.sql # SQL script for tables and sample data
+│   ├── css/
+│   │   └── style.css   # Basic styling
+│   └── js/
+│       └── main.js     # Optional JavaScript
+└── database.sql        # SQL script for tables and sample data
+
 
 
 Feel free to rename or rearrange these files to match how your course or lesson is structured.
